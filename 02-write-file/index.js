@@ -3,7 +3,7 @@ const path = require('path');
 const output = fs.createWriteStream(path.join(__dirname, 'text2.txt'));
 
 const exit = () => {
-  process.stdout.write('The program will be closed. Buy!');
+  process.stdout.write('The program will be closed. Bye!');
   process.exit();
 }
 
